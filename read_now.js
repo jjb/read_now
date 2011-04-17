@@ -1,6 +1,7 @@
 // The bookmarklet
 $('div').click(function(){
-  $(this).css('font-size', '16pt');
+  $(this).css('font-size', '19px');
+  $(this).css('line-height', '29px');
   $(this).css('color', 'black');
   $(this).css('font-family', 'Georgia');
   $('div').unbind();
